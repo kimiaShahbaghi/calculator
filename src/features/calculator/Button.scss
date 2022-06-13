@@ -1,0 +1,14 @@
+button{
+    border:none;
+    border-radius: 0.7rem;
+    &:focus-within{
+        border: 1px solid black;
+    }   
+}
+
+.operator{
+    background-color: darkgray;
+}
+.equal{
+    background-color: rgba(68, 68, 185, 0.817);
+}
