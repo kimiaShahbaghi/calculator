@@ -23,7 +23,7 @@ const calculatorSlice = createSlice({
     },
 
     singleOperator: (state, action) => {
-      if (state.input.slice(-1) == action.payload) {
+      if (state.input.slice(-1) === action.payload) {
         return;
       } else {
         state.input += action.payload;

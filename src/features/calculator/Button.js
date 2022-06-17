@@ -29,7 +29,6 @@ function Button(props) {
   const clickHandler = (input) => {
     switch (input) {
       case "=":
-        console.log("equal");
         dispatch(calc());
         break;
 
@@ -46,7 +45,6 @@ function Button(props) {
         break;
 
       default:
-        console.log("default");
         dispatch(addInput(input));
     }
   };
