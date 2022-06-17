@@ -1,4 +1,4 @@
-.caclulator {
+.calculator {
   margin: 20px auto;
   width: 75vw;
   height: 50vh;
@@ -9,13 +9,20 @@
     border: 1px solid gray;
     border-radius: 0.7rem;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
     align-items: end;
-    padding: 0 1rem 0.5rem 0;
-    font-size: 1.5rem;
-    
+    padding: 0.5rem 1rem 0.2rem 0;
+
     &:hover {
       border-top: 2px solid gray;
+    }
+
+    &__answer {
+      font-size: 0.8rem;
+      color: gray;
+    }
+    &__input {
+      font-size: 1.5rem !important;
     }
   }
   &__buttons {
